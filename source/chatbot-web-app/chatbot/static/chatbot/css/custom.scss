@@ -1,0 +1,29 @@
+$blue:      #3498db;
+$gray:      #95a5a6;
+$lightgray: #ecf0f1;
+
+body {
+  background: $lightgray;
+}
+
+.jumbotron {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.user {
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 50px;
+  background: $blue;
+  color: #fff;
+  max-width: 70%;
+}
+
+.bot {
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 50px;
+  background: $gray;
+  color: #fff;
+  text-align: right;
+}
